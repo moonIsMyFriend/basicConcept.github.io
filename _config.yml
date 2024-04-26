@@ -240,6 +240,8 @@ yat:
 #   theme: "github-light"
 #   follow_site_theme: true
 
+math: true
+
 # Build settings
 # highlighter: none
 markdown: kramdown
