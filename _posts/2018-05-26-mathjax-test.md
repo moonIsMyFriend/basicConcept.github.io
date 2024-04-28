@@ -7,6 +7,7 @@ mathjax: yes
 tags: [test]
 ---
 
+제발좀
 * A safe integer is an integer that
   * can be exactly represented as an IEEE-754 double precision number, and
   * whose IEEE-75 representation cannot be the result of rounding any other integer to fit the IEEE-754 representation
