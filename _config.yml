@@ -57,6 +57,7 @@ dash:
 theme: jekyll-dash
 
 plugins:
+ - jekyll-dash
  - jekyll-feed
  - jekyll-seo-tag
  - jekyll-paginate
