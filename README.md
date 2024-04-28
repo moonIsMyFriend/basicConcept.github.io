@@ -1,83 +1,154 @@
-<!-- markdownlint-disable-next-line -->
-<div align="center">
+## moonwalk - a fast and minimalistic blog theme with clean dark mode
 
-  <!-- markdownlint-disable-next-line -->
-  # Chirpy Jekyll Theme
+<img src="https://raw.githubusercontent.com/abhinavs/moonwalk/master/_screenshots/moonwalk.png" />
 
-  A minimal, responsive, and feature-rich Jekyll theme for technical writing.
-
-  [![Gem Version](https://img.shields.io/gem/v/jekyll-theme-chirpy?color=brightgreen)][gem]&nbsp;
-  [![CI](https://github.com/cotes2020/jekyll-theme-chirpy/actions/workflows/ci.yml/badge.svg?branch=master&event=push)][ci]&nbsp;
-  [![Codacy Badge](https://app.codacy.com/project/badge/Grade/4e556876a3c54d5e8f2d2857c4f43894)][codacy]&nbsp;
-  [![GitHub license](https://img.shields.io/github/license/cotes2020/jekyll-theme-chirpy.svg)][license]&nbsp;
-  [![996.icu](https://img.shields.io/badge/link-996.icu-%23FF4D5B.svg)](https://996.icu)
-
-  [**Live Demo** →][demo]
-
-  [![Devices Mockup](https://chirpy-img.netlify.app/commons/devices-mockup.png)][demo]
-
-</div>
+<h3 align="center">
+  <img src="https://raw.githubusercontent.com/abhinavs/moonwalk/master/logo.png" width="24"/>
+<a href="https://abhinavs.github.io/moonwalk/">TRY THE DEMO</a>
+</h3>
 
 ## Features
+* Light & dark mode with theme switcher
+* Vertical list, horizontal list, card list
+* Landing page with navbar, footer, portfolio
+* Fast (very minimal CSS) - 100/100 on performance, accessibility, best practices and SEO, please see [Lighthouse Report](https://raw.githubusercontent.com/abhinavs/moonwalk/master/_screenshots/lighthouse-report.png) for more details
+* Responsive and mobile friendly
+* SEO optimized (uses [Jekyll Soopr SEO Tag](https://github.com/jekyll/jekyll-soopr-seo-tag))
+* RSS feed (uses [Jekyll Feed](https://github.com/jekyll/jekyll-feed))
+* Easy to extend
+* Fully compatible with [GitHub Pages](https://pages.github.com/) (see [GitHub Pages installation](#github-pages-installation))
+* Auto-generated share images for social media (using [Soopr](https://www.soopr.co))
+* Share & like buttons (using [Soopr](https://www.soopr.co))
 
-- Dark Theme
-- Localized UI language
-- Pinned Posts on Home Page
-- Hierarchical Categories
-- Trending Tags
-- Table of Contents
-- Last Modified Date
-- Syntax Highlighting
-- Mathematical Expressions
-- Mermaid Diagrams & Flowcharts
-- Dark Mode Images
-- Embed Media
-- Comment Systems
-- Built-in Search
-- Atom Feeds
-- PWA
-- Web Analytics
-- SEO & Performance Optimization
 
-## Documentation
+#### Lighthouse
 
-To learn how to use, develop, and upgrade the project, please refer to the [Wiki][wiki].
+<img src="https://raw.githubusercontent.com/abhinavs/moonwalk/master/_screenshots/lighthouse-report.png" />
+
+## Quick Installation
+1. [Fork this repository](https://github.com/abhinavs/moonwalk/fork).
+2. `cd moonwalk`
+3. `bin/bootstrap`
+4. [Optional] Sign up on Soopr, and add your `publish_token` in `_config.yml` file.
+
+If you are installing Moonwalk on Windows, please note that you might have to use Ruby 3.0.x instead of Ruby 3.1.x - you can see Windows specific installation instructions [here](https://github.com/abhinavs/moonwalk/blob/master/moonwalk_on_windows.md)
+
+## Starting Server
+`bin/start` - development server will start at http://127.0.0.1:4000
+
+## Deployment
+Moonwalk can be easily deployed on all the cloud providers (AWS etc.), and on static website hosting services like Netlify & Vercel. You can also use this button to do one click deploy
+<br />
+<br />
+[![Deploy with Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/abhinavs/moonwalk)
+
+If you want to use Moonwalk as a gem or use Github Pages, please see [this page](https://github.com/abhinavs/moonwalk/blob/master/github_pages.md)
+
+## Customizing
+
+You can edit `_config.yml` file to customize your blog. You can change things such as the name of the blog, the author, the appearance of the theme (light, dark or auto), how dates are formatted, etc. Customizable fields should be straightforward to understand. Still, `_config.yml` contains some comments to help you understand what each field does.
+
+For further customization (e.g. layout, CSS) see the [official Jekyll's documentation](https://jekyllrb.com/docs/themes/#overriding-theme-defaults) on customizing gem-based themes.
+
+### Customize the menu
+
+In order to add/edit/delete entries in the home page, you can copy the `home.yml` file inside `_data` folder. Through that file you can define the structure of the menu and add data for navbar, footer, portfolio or simply remove all of that and use simple blog layout. Take a look at the default configuration to get an idea of how it works and read on for a more comprehensive explaination.
+
+The `home.yml` file accepts the following fields:
+
+1. Vertical list
+  - `entries` define a new unordered list that will contain menu entries
+  - each entry is marked by a `-` at the beginning of the line
+  - each entry has the following attributes:
+    - `title`, which defines the text to render for that menu entry
+    - `url`, which can either be a URL or `false`. If it is `false`, the entry will be rendered as plain text; otherwise the entry will be rendered as a link pointing to the specified URL. Note that the URL can either be relative or absolute.
+    - `post_list`, which can be `true` or `false`. If it is true, the entry will have all posts in the site as subentries. This is used to render your post list.
+    - `entries`, yes, you can have entries inside entries. In this way you can create nested sublists!
+2. Card list - cards are used to showcase portfolio projects. Please see `project_entries` in `_data/home.yml` file
+  - each entry is marked by a `-` at the beginning of the line
+  - each entry has the following attributes:
+    - `title` defines the header of the card
+    - `desc` is the body of the card
+    - `url` is a relative or absolute link which this card can point to.
+    - `highlight` in case you want to highlight something, keep the text short though
+3. Horizontal list - moonwalk uses horizontal lists to create navbar and footer. Please see `navbar_entries` and `footer_entries` in `data/home.yml` file
+  - each entry is marked by a `-` at the beginning of the line
+  - each entry has the following attributes:
+    - `title` defines the header of the card
+    - `url` is a relative or absolute link which this card can point to.
+
+
+### Pro tips
+1. Moonwalk has 3 in-built layouts:
+  - post - for content
+  - blog - for listing blog posts
+  - home - for landing page
+  you can change your `index.md` file to use either home or blog layout.
+
+2. It is extremely easy to tweak the color scheme. 
+  - for light mode, customize these css variables
+```css
+html {
+    --bg: #fff;
+    --bg-secondary: #f3f4f6;
+    --headings: #1e293b;
+    --text: #374151;
+    --text-secondary: #6b7280;
+    --links: #6366f1;
+    --highlight: #ffecb2; // light yellow
+    --code-text: #9d174d;
+}
+```
+  - for dark mode customize these css variables
+```css
+@mixin dark-appearance {
+  html, body  {
+      --headings: #74c0fc;
+      --links: #91a7ff;
+      --highlight: #41c7c7;
+      --bg: #1f242a;
+      --bg-secondary: #323945;
+      --text: #adb5bd;
+      --text-secondary: #9ca3af;
+      --code-text: #91a7ff;
+  };
+}
+```
+3. Sign up for free on [Soopr](https://www.soopr.co) and add your `publish_token` in `_config.yml` file - with this, each page gets short URL, like button and auto generated share image for social media.
+
+<img src="https://raw.githubusercontent.com/abhinavs/moonwalk/master/_screenshots/twitter_card.png" />
 
 ## Contributing
 
-Contributions (_pull requests_, _issues_, and _discussions_) are what make the open-source community such an amazing place
-to learn, inspire, and create. Any contributions you make are greatly appreciated.
-For details, see the "[Contributing Guidelines][contribute-guide]".
+Bug reports and pull requests are welcome on GitHub at https://github.com/abhinavs/moonwalk.
 
-## Credits
+## Development
 
-### Contributors
+To set up your environment to develop this theme, run `bundle install`.
 
-Thanks to [all the contributors][contributors] involved in the development of the project!
+Your theme is setup just like a normal Jekyll site! To test your theme, run `bundle exec jekyll serve` and open your browser at `http://localhost:4000`. This starts a Jekyll server using your theme. Add pages, documents, data, etc. like normal to test your theme's contents. As you make modifications to your theme and to your content, your site will regenerate and you should see the changes in the browser after a refresh, just like normal.
 
-[![all-contributors](https://contrib.rocks/image?repo=cotes2020/jekyll-theme-chirpy&columns=16)][contributors]
-<sub> — Made with [contrib.rocks](https://contrib.rocks)</sub>
+When your theme is released, only the files in `_layouts`, `_includes`, `_sass` and `assets` tracked with Git will be bundled.
+To add a custom directory to your theme-gem, please edit the regexp in `moonwalk.gemspec` accordingly.
 
-### Third-Party Assets
-
-This project is built on the [Jekyll][jekyllrb] ecosystem and some [great libraries][lib], and is developed using [VS Code][vscode] as well as tools provided by [JetBrains][jetbrains] under a non-commercial open-source software license.
-
-The avatar and favicon for the project's website are from [ClipartMAX][clipartmax].
+## Acknowledgement
+This theme's original base is [no style please!](https://github.com/riggraz/no-style-please) theme created by  [Riccardo Graziosi](https://riggraz.dev/) - many thanks to him for creating a wonderful theme with nearly no css. 
 
 ## License
 
-This project is published under [MIT License][license].
+The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
 
-[gem]: https://rubygems.org/gems/jekyll-theme-chirpy
-[ci]: https://github.com/cotes2020/jekyll-theme-chirpy/actions/workflows/ci.yml?query=event%3Apush+branch%3Amaster
-[codacy]: https://app.codacy.com/gh/cotes2020/jekyll-theme-chirpy/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade
-[license]: https://github.com/cotes2020/jekyll-theme-chirpy/blob/master/LICENSE
-[jekyllrb]: https://jekyllrb.com/
-[clipartmax]: https://www.clipartmax.com/middle/m2i8b1m2K9Z5m2K9_ant-clipart-childrens-ant-cute/
-[demo]: https://cotes2020.github.io/chirpy-demo/
-[wiki]: https://github.com/cotes2020/jekyll-theme-chirpy/wiki
-[contribute-guide]: https://github.com/cotes2020/jekyll-theme-chirpy/blob/master/docs/CONTRIBUTING.md
-[contributors]: https://github.com/cotes2020/jekyll-theme-chirpy/graphs/contributors
-[lib]: https://github.com/cotes2020/chirpy-static-assets
-[vscode]: https://code.visualstudio.com/
-[jetbrains]: https://www.jetbrains.com/?from=jekyll-theme-chirpy
+## Other Projects
+If you like Moonwalk, do check out my other projects
+*   [cookie](https://github.com/abhinavs/cookie) - a free landing website boilerplate using Jekyll and Tailwind CSS
+*   [scoop](https://github.com/abhinavs/scoop) - a Sinatra boilerplate project using Corneal, ActiveRecord, Capistrano, Puma & Nginx
+*   [soopr](https://www.soopr.co) - a tool that supports you in content marketing
+*   [apicagent](https://www.apicagent.com) - a FREE API that extracts device details from user-agent string
+*   [pincodr](https://pincodr.apiclabs.com) - a FREE API for Indian pincodes
+*   [humangous](https://www.humangous.co) - create public and private 'working with you' guides
+*   [blockr](https://www.abhinav.co/blockr) - a CLI tool to help you easily block and unblock websites
+*   [microrequests](https://www.abhinav.co/microrequests) - a Python library to help you consume microservice efficiently
+
+✨⚡You can read more about me on my [blog](https://www.abhinav.co/about/) or follow me on Twitter - [@abhinav](https://twitter.com/abhinav)
+
+✨⚡If you like my work, you can [buy me a coffee](https://buymeacoffee.com/abhinavs)                
