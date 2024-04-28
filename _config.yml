@@ -54,7 +54,8 @@ dash:
   #avatar_path: /assets/avatar.png
 
 # Build settings
-theme: jekyll-dash
+remote_theme: "jeffreytse/jekyll-dash"
+
 
 plugins:
  - jekyll-dash
