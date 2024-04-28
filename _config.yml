@@ -45,8 +45,6 @@ remote_theme: "jeffreytse/jekyll-theme-yat"
 #
 copyright: "Unpublished Work (cleft) 2017-{currentYear} {author}"
 
-# github-pages-are-not-updating
-future: true
 
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
@@ -247,7 +245,9 @@ yat:
 # Build settings
 # highlighter: none
 markdown: kramdown
-mathjax: true
+# mathjax: true
+# github-pages-are-not-updating
+# future: true
 kramdown:
   input: GFM
 
