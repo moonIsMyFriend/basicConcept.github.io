@@ -3,6 +3,7 @@ layout: post
 title: Mathjax Test
 subtitle: My first mathjax expression
 categories: markdown
+mathjax: yes
 tags: [test]
 ---
 
