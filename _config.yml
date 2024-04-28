@@ -43,6 +43,8 @@ soopr:
 
 highlighter: rouge
 
+future: true
+
 sass:
   style: :compressed
 
