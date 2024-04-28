@@ -209,6 +209,7 @@ yat:
 
 # Build settings
 # highlighter: none
+mathjax: yes
 markdown: kramdown
 kmarkdown:
   input: GFM
