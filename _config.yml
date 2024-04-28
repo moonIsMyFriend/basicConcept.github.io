@@ -209,9 +209,20 @@ yat:
 
 # Build settings
 # highlighter: none
+# Build settings
 markdown: kramdown
 kmarkdown:
   input: GFM
+mathjax: true
+highlighter: rouge
+compress_html:
+  clippings: all
+  comments: all
+  startings: [html, head, body]
+  
+# markdown: kramdown
+# kmarkdown:
+#  input: GFM
 
 plugins:
   - jekyll-feed
