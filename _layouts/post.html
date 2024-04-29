@@ -1,41 +1,43 @@
----
-layout: default
----
-<article class="post" itemscope itemtype="https://schema.org/BlogPosting">
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    {% include header.html %}
+  </head>
+  <body>
 
-    <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
-        <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time> {% if page.author %}<span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="name">/ {{ page.author }}</span></span>{% endif %}{% if page.tags != null %}/
-            {% assign projectTags = site.data.tags.allowed-tags %}
-            {% for tag in page.tags %}
-            {% if projectTags contains tag %}
-            <a href="{{ "tag_" | append: tag | append: ".html"}}">{{tag}}</a>{% unless forloop.last %}, {% endunless%}
-            {% endif %}
-            {% endfor %}
-            {% endif %}
+    {% include nav.html %}
 
-        </p>
+    <main>
+      <div class="container">
+        <img src="{{ site.baseurl }}/assets/img/grunge.png" alt="" class="line">
+        <p class="center">[&nbsp;N<sup>o</sup>{% for post in site.posts %}
+              {% if post.title == page.title %}
+              {{ forloop.index | roman }}
+              {% endif %}
+              {% endfor %}&nbsp;]
+        <span>&nbsp;{{ page.keywords }}</span></p>
+        <img src="{{ site.baseurl }}/assets/img/grunge.png" alt="" class="line flip">
 
-
-    </header>
-
-    <div class="post-content" itemprop="articleBody">
-
-        {% if page.summary %}
-        <div class="summary">{{page.summary}}</div>
+        <h2 class="brand center" id="title">{{ page.title | upcase }}</h2>
+        {% if page.abstract %}<h5 class="center">{{ page.abstract }}</h5>{% endif %}
+        {% if page.category %}
+        <img src="{{ site.baseurl }}/assets/img/grunge.png" alt="" class="line tag flip">
+        <p class="right tagline">{{ page.category }}</p>
+        <img src="{{ site.baseurl }}/assets/img/grunge.png" alt="" class="line tag">
         {% endif %}
+        <br>
+        <h4 class="center space">{{ site.location | upcase }}</h4>
+        <h5 class="center">{{ page.date | date_to_long_string | upcase }}</h5>
 
-        {{ content }}
-    </div>
+        <div class="threecol justify">
+          {{ content }}
+        </div>
 
+        <p class="right italics">by {{ page.author }}</p>
+      </div>
+    </main>
 
-
-</article>
-
-{% include commento.html %}
-
-{{site.data.alerts.hr_shaded}}
-
-{% include footer.html %}
-
-{% comment %} Copyright 2021 Google LLC {% endcomment %}
+  </body>
+</html>
