@@ -46,6 +46,14 @@ highlighter: rouge
 sass:
   style: :compressed
 
+# Math equation
+markdown: kramdown
+mathjax: true
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
 plugins:
   - jekyll-feed
   - jekyll-soopr-seo-tag
