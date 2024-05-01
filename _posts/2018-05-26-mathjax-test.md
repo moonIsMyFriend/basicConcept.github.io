@@ -16,6 +16,6 @@ use_math: true
   
   $ 2 ^ {53} - 1 $
   
-<img src='./assets/img/down.png'>
+<img src='../assets/img/down.png'>
 
 <img id="dimg_5" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNLOS2WIU8mW9a4kUirYYBkfYh7VpbtBdeKL4sQ7doHPs2DqSWLSbdpow&amp;s" class="YQ4gaf zr758c" height="54" width="92" alt="" data-csiid="21" data-atf="4" data-deferred="3">
