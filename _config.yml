@@ -27,7 +27,7 @@ kramdown:
 # Math equation
 #markdown: kramdown
 mathjax: true
-#highlighter: rouge
+highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
 incremental: false
