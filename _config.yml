@@ -25,9 +25,9 @@ kramdown:
     disable : true
     
 # Math equation
-#markdown: kramdown
+# markdown: kramdown
 mathjax: true
-#highlighter: rouge
-#lsi: false
-#excerpt_separator: "\n\n"
-#incremental: false
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
