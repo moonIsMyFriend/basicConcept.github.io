@@ -5,6 +5,7 @@ subtitle: My first mathjax expression
 categories: markdown
 tags: [test]
 math: true
+use_math: true
 ---
 
 * A safe integer is an integer that
@@ -14,3 +15,5 @@ math: true
   * it can be exactly represented 
   
   $ 2 ^ {53} - 1 $
+  
+<img src='./assets/img/favicon.png'>
