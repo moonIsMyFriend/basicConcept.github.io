@@ -23,7 +23,3 @@ kramdown:
   input: GFM
   syntax_highlighter_opts:
     disable : true
-    
-# Math equation
-# markdown: kramdown
-mathjax: true
