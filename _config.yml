@@ -26,7 +26,7 @@ kramdown:
 
 # Math equation
 mathjax: true
-highlighter: rouge
+# highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
 incremental: false
