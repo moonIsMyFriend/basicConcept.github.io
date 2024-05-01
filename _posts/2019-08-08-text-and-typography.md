@@ -3,6 +3,7 @@ title: Text and Typography
 tags: [typography]
 math: true
 mermaid: true
+use_math: true
 ---
 
 
