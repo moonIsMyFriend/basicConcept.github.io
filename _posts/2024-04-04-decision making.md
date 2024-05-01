@@ -1,7 +1,7 @@
 ---
 layout: post
 tags: [Decision Systems]
-
+title:  Decision Systems
 ---
 1. Introduction 
 - Decision Problems in Logistics 
@@ -10,24 +10,25 @@ tags: [Decision Systems]
   - Example: Single Machine Scheduling
   - Example: TSP
 
-2.1. Network Models
+1) Network Models
 - Example: Interval Scheduling
 - Graphs
 - Trees
-2.2. Formulation of the Network Flow Problem
+
+1. Formulation of the Network Flow Problem
 - Formulation
 - Variants
 - Matrix Representation
 - Circulation
 
-3.1. Algorithm & Complexity
+1. Algorithm & Complexity
 - algorithms
 - counting the number of arithmetic operations
 - rate of growth
 - worst-case analysis
 - polynomial-time algorithm
 
-3.2. Minimum Spanning Tree Problem
+2. Minimum Spanning Tree Problem
 - Tree & Spanning Tree
 - MST Problem
 - Greedy Algorithm
