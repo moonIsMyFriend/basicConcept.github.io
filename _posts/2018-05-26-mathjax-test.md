@@ -16,4 +16,4 @@ use_math: true
   
   $ 2 ^ {53} - 1 $
   
-<img src='./assets/img/favicon.png'>
+<img src='./assets/img/down.png'>
