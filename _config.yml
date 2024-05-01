@@ -23,3 +23,8 @@ kramdown:
   input: GFM
   syntax_highlighter_opts:
     disable : true
+mathjax: true
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
