@@ -10,7 +10,7 @@ title:  Decision Systems
   - Example: Single Machine Scheduling
   - Example: TSP
 
-1) Network Models
+  1. Network Models
 - Example: Interval Scheduling
 - Graphs
 - Trees
