@@ -1,6 +1,6 @@
 ---
 layout: post
-tags: [Decision Systems]
+tags: [ds]
 title:  Decision Systems
 ---
 1. Introduction 
@@ -10,31 +10,31 @@ title:  Decision Systems
   - Example: Single Machine Scheduling
   - Example: TSP
 
-  1. Network Models
+2. Network Models
 - Example: Interval Scheduling
 - Graphs
 - Trees
 
-1. Formulation of the Network Flow Problem
+3. Formulation of the Network Flow Problem
 - Formulation
 - Variants
 - Matrix Representation
 - Circulation
 
-1. Algorithm & Complexity
+4. Algorithm & Complexity
 - algorithms
 - counting the number of arithmetic operations
 - rate of growth
 - worst-case analysis
 - polynomial-time algorithm
 
-2. Minimum Spanning Tree Problem
+5. Minimum Spanning Tree Problem
 - Tree & Spanning Tree
 - MST Problem
 - Greedy Algorithm
 - Greedy Algorithm for MST
 
-4. Shortest Path Problem
+6. Shortest Path Problem
 - Problem definition
 - Relation to the network flow problem
 - Bellman’s equation
@@ -50,3 +50,19 @@ title:  Decision Systems
 - The Ford-Fulkerson algorithm
 - Labeling algorithm
 - Cut
+
+***
+
+1. Linear Programming
+- definition of LP
+- Example: Product-Mix Problem
+- using Excel Solver
+- Example: Advertisig-Mix Problem
+
+2. Linear Programing: Formulation and Applications
+- LP Model
+- Adertising-Mix Problem
+- Resource_Allocation Problem
+- Cost-Benefit Tradeoff Problem
+- Transportation Problem
+- Assignment Problem
