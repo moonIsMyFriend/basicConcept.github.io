@@ -5,9 +5,17 @@ layout: default
 {% if page.use_math %}
 	{% include mathjax_support.html %}
 {% endif %}
+{% if page.use_mermaid %}
+	{% include mermaid_support.html %}
+{% endif %}
 </head>
 
 <a href="{{ "/" | relative_url }}">{{ site.theme_config.back_home_text }}</a>
 <h1 class="post-title">{{ page.title }}</h1>
 {% include date_and_social_share.html %}
 {{ content }}
+
+<script>
+	mermaid.initialize({startOnLoad:true});
+	window.mermaid.init(undefined, document.querySelectorAll('.language-mermaid'));
+</script>
