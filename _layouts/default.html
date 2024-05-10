@@ -17,6 +17,7 @@
 	<link rel="icon" href="/assets/img/favicon.ico" type="image/x-icon">
 	<script src="/assets/js/highlight.pack.js"></script>
 	<script>hljs.initHighlightingOnLoad();</script>
+	<script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
 </head>
 <body>
 	<div class="wrapper">
@@ -94,5 +95,10 @@
 	<div class="footer">
 		<p>Created by <a href="" target="_blank">pih (hi)</a> | Code licensed under <a href="https://" target="_blank">MIT License</a></p>
 	</div>
+
+	<script>
+		mermaid.initialize({startOnLoad:true});
+		window.mermaid.init(undefined, document.querySelectorAll('.language-mermaid'));
+	</script>
 </body>
 </html>
