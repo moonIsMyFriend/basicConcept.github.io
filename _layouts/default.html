@@ -95,17 +95,19 @@
 		<p>Created by <a href="" target="_blank">pih (hi)</a> | Code licensed under <a href="https://" target="_blank">MIT License</a></p>
 	</div>
 
-	<script>
-		var config = {
-			startOnLoad:true,
-			theme: 'forest',
-			flowchart:{
-					useMaxWidth:false,
-					htmlLabels:true
-				}
-		};
-		mermaid.initialize(config);
-		window.mermaid.init(undefined, document.querySelectorAll('.language-mermaid'));
-		</script>
+
 </body>
+
+<script>
+	var config = {
+		startOnLoad:true,
+		theme: 'forest',
+		flowchart:{
+				useMaxWidth:false,
+				htmlLabels:true
+			}
+	};
+	mermaid.initialize(config);
+	window.mermaid.init(undefined, document.querySelectorAll('.language-mermaid'));
+	</script>
 </html>
