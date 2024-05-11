@@ -21,7 +21,8 @@ use_math: true
 
 집단 간 비교분석: 집단의 차이를 비교
 - 카이검증(교차분석): 독립변수와 종속변수가 둘 다 명목(범주)형 자료일 때 사용. 집단 간 비율 비교.
-  <br> $\chi^2$  [카이스퀘어(Chi-squared);카이제곱]
+  <br> $\chi^2$  \[카이스퀘어(Chi-squared);카이제곱\]
+  $\chi^2$-distribution: 카이자승분포
 - t-test, ANOVA(Analysis of Variance): 독립변수가 명목형 자료이지만, 종속변수는 연속형 자료일 때 사용
 
 변수 간 상관성 검증: 요인의 연속성을 검증
