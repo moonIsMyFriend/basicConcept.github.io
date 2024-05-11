@@ -36,7 +36,7 @@ use_math: true
 | ------------- | :-----------: | -------------: | :----------: | :----------: | --------------- |
 | Tall Cell     |          *Long Cell*          ||         *Long Long Cell*                    |||
 | ^^            |   **Bold**    | 1. first item  | *Italic*     | 3. third item | + first point  |\
-| ^^            |               | 1. second item |              | 1. forth item | + second point |
+| ^             |               | 1. second item |              | 1. forth item | + second point |
 
 | New section   |     More      |         Data   | ... - -- --- |||
 | And more      | With an escaped \|          || "Try 'quotes' in quotes "         |||
@@ -64,6 +64,8 @@ use_math: true
 |연속형| 연속형| 회귀분석(종속변수 한 개)|
 | | |구조방정식(종속변수 여러 개)|
 |연속형|명목형|로지스틱 회귀분석|
+
+ㄴㅇㄹㄴㅇ
 
 +---------------+---------------+--------------------+
 | Fruit         | Price         | Advantages         |
