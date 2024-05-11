@@ -30,7 +30,18 @@ use_math: true
   t검증, 차이검증
 - ANOVA(Analysis of Variance): 독립변수가 명목형 자료이지만, 종속변수는 연속형 자료일 때 사용. 여러 집단 간 평균 비교(3 집단 이상 가능)
   변량분석
-  
+
+|               |          Grouping             ||         Grouping 2         ||  Not Grouped    |
+| First Header  | Second Header | Third Header   | Forth Header | Fifth Header | Sixth Header    |
+| ------------- | :-----------: | -------------: | :----------: | :----------: | --------------- |
+| Tall Cell     |          *Long Cell*          ||         *Long Long Cell*                    |||
+| ^^            |   **Bold**    | 1. first item  | *Italic*     | 3. third item | + first point  |\
+| ^^            |               | 1. second item |              | 1. forth item | + second point |
+
+| New section   |     More      |         Data   | ... - -- --- |||
+| And more      | With an escaped \|          || "Try 'quotes' in quotes "         |||
+[Compicated table]
+
   
 변수 간 상관성 검증: 요인의 연속성을 검증
 - 상관관계 분석(Correlation Analysis): 독립변수와 종속변수가 모두 연속형 자료일 때 사용. 변수 간의 관계성 검증. 
