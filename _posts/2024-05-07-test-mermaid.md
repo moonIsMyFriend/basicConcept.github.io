@@ -356,13 +356,13 @@ flowchart LR
 
 <!-------------------------------------------------------------------------------------->
 </body>
-<!--
+
 <script type="module">
       import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
       mermaid.initialize({ startOnLoad: true });
 </script>
--->
 
+<!--
 <script>
 	import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
     var config = {
@@ -374,7 +374,7 @@ flowchart LR
             }
     };
     mermaid.initialize(config);
-    <!--window.mermaid.init(undefined, document.querySelectorAll('.language-mermaid'));-->
+    window.mermaid.init(undefined, document.querySelectorAll('.language-mermaid'));
 </script>
-	
+-->
 </html>
