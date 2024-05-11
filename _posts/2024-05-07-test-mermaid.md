@@ -334,6 +334,27 @@ flowchart LR
 </pre>
 </td></tr></table>
 
+<h2>Markdown not work</h2>
+```mermaid
+flowchart LR
+    Start --> Stop
+```
+
+~~~
+flowchart LR
+    id1[This is the text in the box]
+
+~~~
+
+~~~ mermaid
+flowchart LR
+    Start --> Stop
+
+
+flowchart LR
+    id1[This is the text in the box]
+~~~
+
 <!-------------------------------------------------------------------------------------->
 </body>
 
