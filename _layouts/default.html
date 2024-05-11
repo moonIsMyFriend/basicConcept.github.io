@@ -22,17 +22,20 @@
 	<div class="wrapper">
 		<div class="default_title">
 			<img src="/assets/img/mycomputer.png" />
+			my
 			{% if page.tag %}
 				<h1>{{ page.tag }}</h1>
 			{% else %}
 				<h1>{{ site.name }}</h1>
 			{% endif %}
 		</div>
+		topbar
 		{% include topbar.html %}
 		<div class="tag_list">
 			<ul id="tag-list">
 				<li><a href="/" ><img src="/assets/img/disk.png" />(C:)</a>
 			<ul>
+			disk
 				{% assign tags = site.tags | sort %}
 				{% for tag in tags %}
 				<li><a href="/tag/{{ tag | first | slugify }}/" title="{{ tag[0] | replace:'-', ' ' }}"><img src="/assets/img/folder.ico" />{{ tag[0] | replace:'-', ' ' }}</a></li>
@@ -42,6 +45,7 @@
 			</ul>
 		</div>
 		<div class="post_list">
+		date
 			{% unless page.date%}
 				{% if page.title == 'me' or page.title == '404...' %}
 					<ul>
@@ -61,6 +65,7 @@
 			{% endunless %}
 		</div>
 		<div class="post_total">
+		tag
 			{% if page.tag %}
 				<div class="left">{{ site.tags[page.tag] | size }} object(s)</div>
 			{% else %}
@@ -69,6 +74,7 @@
 			<div class="right">&nbsp;</div>
 		</div>
 	</div>
+	title
 	{% if page.title %}
         <div class="content">
 			<div class="post_title">
@@ -82,6 +88,7 @@
 				<li>{{ page.date | date: '%B %-d, %Y' }}</li>
 			</ul>
 			<div class="post_content">
+			content
         		{{ content }}
 				{% if page.title %}
 					{% include donate.html %}
