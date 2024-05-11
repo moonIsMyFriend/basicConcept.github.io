@@ -334,26 +334,6 @@ flowchart LR
 </pre>
 </td></tr></table>
 
-```mermaid
-flowchart LR
-    Start --> Stop
-```
-
-~~~
-flowchart LR
-    id1[This is the text in the box]
-
-~~~
-
-~~~ mermaid
-flowchart LR
-    Start --> Stop
-
-
-flowchart LR
-    id1[This is the text in the box]
-~~~
-
 <!-------------------------------------------------------------------------------------->
 </body>
 
