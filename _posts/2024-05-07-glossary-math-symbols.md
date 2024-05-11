@@ -8,13 +8,13 @@ use_mermaid: true
 ---
 
 
-_1. list item__
-__1.1 list item
-_2. list
+ 1. list item  
+  1.1 list item
+ 2. list
 
-_1. list item__
-__1.1. list item
-_2. list
+ 1. list item  
+  1.1. list item
+ 2. list
 
 1. 그리스 문자
 
