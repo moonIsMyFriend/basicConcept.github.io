@@ -25,7 +25,7 @@ use_mermaid: true
 - subsumed: 포함하다
 - have bearing on: ~와 관련 있다.
 
-dfd
+
 ```mermaid
 flowchart LR
     Start --> Stop
