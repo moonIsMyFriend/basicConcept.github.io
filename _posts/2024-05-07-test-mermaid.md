@@ -334,6 +334,25 @@ flowchart LR
 </pre>
 </td></tr></table>
 
+```mermaid
+flowchart LR
+    Start --> Stop
+```
+
+~~~
+flowchart LR
+    id1[This is the text in the box]
+
+~~~
+
+~~~ mermaid
+flowchart LR
+    Start --> Stop
+
+
+flowchart LR
+    id1[This is the text in the box]
+~~~
 
 <!-------------------------------------------------------------------------------------->
 </body>
@@ -345,6 +364,7 @@ flowchart LR
 -->
 
 <script>
+	import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
     var config = {
         startOnLoad:true,
         theme: 'forest',
