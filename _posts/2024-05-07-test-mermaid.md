@@ -334,31 +334,27 @@ flowchart LR
 </pre>
 </td></tr></table>
 
-```mermaid
-flowchart LR
-    Start --> Stop
-```
-
-~~~
-flowchart LR
-    id1[This is the text in the box]
-
-~~~
-
-~~~ mermaid
-flowchart LR
-    Start --> Stop
-
-
-flowchart LR
-    id1[This is the text in the box]
-~~~
 
 <!-------------------------------------------------------------------------------------->
-
+</body>
+<!--
 <script type="module">
       import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
       mermaid.initialize({ startOnLoad: true });
-    </script>
-  </body>
+</script>
+-->
+
+<script>
+    var config = {
+        startOnLoad:true,
+        theme: 'forest',
+        flowchart:{
+                useMaxWidth:false,
+                htmlLabels:true
+            }
+    };
+    mermaid.initialize(config);
+    window.mermaid.init(undefined, document.querySelectorAll('.language-mermaid'));
+</script>
+	
 </html>
