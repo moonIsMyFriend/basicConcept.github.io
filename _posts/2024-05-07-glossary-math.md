@@ -4,7 +4,6 @@ layout: post
 title:  Math
 tags: [term]
 
-use_mermaid: true
 ---
 
 #  1. Number Theory(정수론)
