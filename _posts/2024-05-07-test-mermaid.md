@@ -374,7 +374,7 @@ flowchart LR
             }
     };
     mermaid.initialize(config);
-    window.mermaid.init(undefined, document.querySelectorAll('.language-mermaid'));
+    <!--window.mermaid.init(undefined, document.querySelectorAll('.language-mermaid'));-->
 </script>
 	
 </html>
