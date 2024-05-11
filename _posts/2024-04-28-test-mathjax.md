@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Mathjax Test
+title: Mathjax
 tags: [test]
 
 use_math: true

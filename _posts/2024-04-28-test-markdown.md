@@ -1,7 +1,8 @@
 ---
 layout: default
-title: "test Markdown"
+title: "Markdown"
 tags: scm test
+date: 2024-04-12
 ---
 
 ## Source: [Markdown Test Page](https://github.com/fullpipe/markdown-test-page)
