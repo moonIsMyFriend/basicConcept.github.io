@@ -2,7 +2,7 @@
 layout: post
 
 title:  Math
-tags: [term]
+tags: [glossary]
 
 use_mermaid: true
 ---
