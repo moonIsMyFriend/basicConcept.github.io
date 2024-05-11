@@ -5,22 +5,27 @@ tags: [glossary]
 date: 2024-05-11
 
 use_mermaid: true
+use_math: true
 ---
 
-#  1. Number Theory(정수론)
-- proposition: 명제
-- divisor: 약수
-- prime number: 소수
-- alongside: 더불어
-- Trivially: 당연히
-- as a signed product of primes: 소수들의 곱의 꼴로
-- irrationality: 무리수
-- rational number: 유리수
-- whole numbers: 서로 소인 정수
-- square of a: a의 제곱
-- even number: 짝수
-- it it two times something: 2의 배수
-- all nontrivial zeros: 자명하지 않은 모든 해
-- loosely: 대략
-- subsumed: 포함하다
-- have bearing on: ~와 관련 있다.
+#  1. 양적 논문
+연구방법론: 
+- 집단을 비교하는 분석
+- 변수 간의 상솬성ㅇ을 검증하는 분석 방법
+
+범주(명목)형 변수: 분류(Category). 숫자에 아무런 의미가 없고, 단지 분류하기 위해 부여하는 변수
+연속형 변수: 크기를 숫자로 비교 가능. 
+
+독립변수: 원인
+종속변수: 결과
+
+집단 간 비교분석: 집단의 차이를 비교
+- 카이검증(교차분석): 독립변수와 종속변수가 둘 다 명목(범주)형 자료일 때 사용. 집단 간 비율 비교.
+  <br> \chi^2  
+- t-test, ANOVA(Analysis of Variance): 독립변수가 명목형 자료이지만, 종속변수는 연속형 자료일 때 사용
+
+변수 간 상관성 검증: 요인의 연속성을 검증
+- 상관관계 분석/회귀분석: 독립변수와 종속변수가 모두 연속형 자료일 때 사용.
+- 로지스틱 회귀분석: 독립변수가 연속형이고, 종속변수가 명목형 자료일 때 사용.
+
+가설이 검증되어서 P값이 0.05보다 적어 유의함: 
