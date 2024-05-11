@@ -4,6 +4,7 @@ layout: post
 title:  Math
 tags: [term]
 
+use_mermaid: true
 ---
 
 #  1. Number Theory(정수론)
@@ -24,7 +25,7 @@ tags: [term]
 - subsumed: 포함하다
 - have bearing on: ~와 관련 있다.
 
-
+dfd
 ```mermaid
 flowchart LR
     Start --> Stop
