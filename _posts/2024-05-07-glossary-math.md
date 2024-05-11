@@ -2,6 +2,7 @@
 layout: post
 title:  Math
 tags: [glossary]
+date: 2024-05-07
 
 use_mermaid: true
 ---
