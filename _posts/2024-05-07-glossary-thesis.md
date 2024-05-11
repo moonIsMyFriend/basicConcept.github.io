@@ -39,7 +39,7 @@ use_math: true
 | ^             |               | 1. second item |              | 1. forth item | + second point |
 | New section   |     More      |         Data   | ... - -- --- |||
 | And more      | With an escaped \|          || "Try 'quotes' in quotes "         |||
-[Compicated table]
+
 
   
 변수 간 상관성 검증: 요인의 연속성을 검증
