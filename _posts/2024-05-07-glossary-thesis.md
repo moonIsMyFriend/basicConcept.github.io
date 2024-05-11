@@ -1,0 +1,62 @@
+---
+layout: post
+
+title:  Math
+tags: [term]
+
+use_mermaid: true
+---
+
+#  1. Number Theory(정수론)
+- proposition: 명제
+- divisor: 약수
+- prime number: 소수
+- alongside: 더불어
+- Trivially: 당연히
+- as a signed product of primes: 소수들의 곱의 꼴로
+- irrationality: 무리수
+- rational number: 유리수
+- whole numbers: 서로 소인 정수
+- square of a: a의 제곱
+- even number: 짝수
+- it it two times something: 2의 배수
+- all nontrivial zeros: 자명하지 않은 모든 해
+- loosely: 대략
+- subsumed: 포함하다
+- have bearing on: ~와 관련 있다.
+
+
+```mermaid
+flowchart LR
+    Start --> Stop
+```
+
+~~~
+flowchart LR
+    id1[This is the text in the box]
+
+~~~
+
+~~~ mermaid
+flowchart LR
+    Start --> Stop
+
+
+flowchart LR
+    id1[This is the text in the box]
+~~~
+
+ <pre><code class="language-mermaid">graph LR
+A--&gt;B
+</code></pre>
+
+<pre class="mermaid">
+	graph TD 
+	A[Client] --> B[Load Balancer] 
+	B --> C[Server1] 
+	B --> D[Server2]
+ </pre>
+ 
+<div class="mermaid">graph LR
+A--&gt;B
+</div>
