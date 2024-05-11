@@ -20,15 +20,6 @@ use_math: true
 독립변수: 원인
 종속변수: 결과
 
-+---------------+---------------+--------------------+
-| Fruit         | Price         | Advantages         |
-+===============+===============+====================+
-| Bananas       | $1.34         | - built-in wrapper |
-|               |               | - bright color     |
-+---------------+---------------+--------------------+
-| Oranges       | $2.10         | - cures scurvy     |
-|               |               | - tasty            |
-+---------------+---------------+--------------------+
 
 집단 간 비교분석: 집단의 차이를 비교
 - 카이검증(교차분석): 독립변수와 종속변수가 둘 다 명목(범주)형 자료일 때 사용. 집단 간 비율 비교.
@@ -39,16 +30,6 @@ use_math: true
   t검증, 차이검증
 - ANOVA(Analysis of Variance): 독립변수가 명목형 자료이지만, 종속변수는 연속형 자료일 때 사용. 여러 집단 간 평균 비교(3 집단 이상 가능)
   변량분석
-
-|               |          Grouping             ||         Grouping 2         ||  Not Grouped    |
-| First Header  | Second Header | Third Header   | Forth Header | Fifth Header | Sixth Header    |
-| ------------- | :-----------: | -------------: | :----------: | :----------: | --------------- |
-| Tall Cell     |          *Long Cell*          ||         *Long Long Cell*                    |||
-| ^^            |   **Bold**    | 1. first item  | *Italic*     | 3. third item | + first point  |\
-| ^             |               | 1. second item |              | 1. forth item | + second point |
-| New section   |     More      |         Data   | ... - -- --- |||
-| And more      | With an escaped \|          || "Try 'quotes' in quotes "         |||
-
 
   
 변수 간 상관성 검증: 요인의 연속성을 검증
@@ -73,16 +54,5 @@ use_math: true
 | | |구조방정식(종속변수 여러 개)|
 |연속형|명목형|로지스틱 회귀분석|
 
-
-
-
-| Fruit         | Price         | Advantages         |
-+===============+===============+====================+
-| Bananas       | $1.34         | - built-in wrapper |
-|               |               | - bright color     |
-+---------------+---------------+--------------------+
-| Oranges       | $2.10         | - cures scurvy     |
-|               |               | - tasty            |
-+---------------+---------------+--------------------+
 
 가설이 검증되어서 P값이 0.05보다 적어 유의함: 
