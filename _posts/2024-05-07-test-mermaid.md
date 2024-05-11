@@ -3,7 +3,7 @@ layout: default
 
 title:  Mermaid
 tags: [term]
-use_mermaid:true
+use_mermaid: true
 ---
 
 <html>
