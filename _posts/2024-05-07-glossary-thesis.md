@@ -1,7 +1,6 @@
 ---
 layout: post
-
-title:  Math
+title:  Thesis
 tags: [glossary]
 
 use_mermaid: true
@@ -24,39 +23,3 @@ use_mermaid: true
 - loosely: 대략
 - subsumed: 포함하다
 - have bearing on: ~와 관련 있다.
-
-
-```mermaid
-flowchart LR
-    Start --> Stop
-```
-
-~~~
-flowchart LR
-    id1[This is the text in the box]
-
-~~~
-
-~~~ mermaid
-flowchart LR
-    Start --> Stop
-
-
-flowchart LR
-    id1[This is the text in the box]
-~~~
-
- <pre><code class="language-mermaid">graph LR
-A--&gt;B
-</code></pre>
-
-<pre class="mermaid">
-	graph TD 
-	A[Client] --> B[Load Balancer] 
-	B --> C[Server1] 
-	B --> D[Server2]
- </pre>
- 
-<div class="mermaid">graph LR
-A--&gt;B
-</div>

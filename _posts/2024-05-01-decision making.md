@@ -1,7 +1,7 @@
 ---
 layout: post
-tags: [ds]
-title:  Decision Systems
+title:  Decision-Making
+tags: [decision-making]
 ---
 1. Introduction 
 - Decision Problems in Logistics 

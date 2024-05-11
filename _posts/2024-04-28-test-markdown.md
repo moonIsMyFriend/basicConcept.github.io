@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Markdown Test Page"
+title: "test Markdown"
 tags: scm test
 ---
 

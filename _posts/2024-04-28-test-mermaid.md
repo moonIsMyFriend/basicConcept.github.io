@@ -1,9 +1,10 @@
 ---
 layout: post
-
 title:  Mermaid
-tags: [term]
+tags: [test]
+
 use_mermaid: true
+use_math: true
 ---
 
 <html>

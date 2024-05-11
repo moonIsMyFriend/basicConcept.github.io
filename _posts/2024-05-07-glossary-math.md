@@ -1,6 +1,5 @@
 ---
 layout: post
-
 title:  Math
 tags: [glossary]
 

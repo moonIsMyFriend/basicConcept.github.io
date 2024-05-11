@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  test AI
+title:  test Network Optimization Methods and Algorithms
 tags: [test, scm]
 
 use_math: true
@@ -9,8 +9,11 @@ show_date: true
 date:   2024-04-12 13:32:20 -0600
 description: Some neural network optimization algorithms mostly to implement momentum when doing back propagation.
 img: posts/20210312/nnet_optimization.jpg
+
 author: Armando Maynez
 github: amaynez/TicTacToe/blob/7bf83b3d5c10adccbeb11bf244fe0af8d9d7b036/entities/Neural_Network.py#L199
+mathjax: yes # leave empty or erase to prevent the mathjax javascript from loading
+toc: yes # leave empty or erase for no TOC
 ---
 4 the seemingly small project I undertook of [creating a machine learning neural network that could learn by itself to play tic-tac-toe](./deep-q-learning-tic-tac-toe.html), I bumped into the necesity of implementing at least one momentum algorithm for the optimization of the network during backpropagation.
 
