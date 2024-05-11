@@ -8,10 +8,6 @@ tags: [term]
 
 <html>
 <body>
-<h2>References</h2>
-<div><pre>
-https://jojozhuang.github.io/tutorial/mermaid-cheat-sheet/
-</pre></div>
 	
 <h2>Mermaid graph diagram:</h2>
 <table><tr>
@@ -337,6 +333,27 @@ flowchart LR
     class A mycssClass
 </pre>
 </td></tr></table>
+
+```mermaid
+flowchart LR
+    Start --> Stop
+```
+
+~~~
+flowchart LR
+    id1[This is the text in the box]
+
+~~~
+
+~~~ mermaid
+flowchart LR
+    Start --> Stop
+
+
+flowchart LR
+    id1[This is the text in the box]
+~~~
+
 <!-------------------------------------------------------------------------------------->
 
 <script type="module">
