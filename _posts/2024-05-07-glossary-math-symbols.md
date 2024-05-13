@@ -6,7 +6,7 @@ date: 2024-05-07
 
 use_mermaid: true
 ---
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQ6PMfPiJNaI5eYCZEQGaMrwGC3dhn_NfwQQzS8fMNOFHHdAQ968c-RRRyk8wRKKFrrvs6uwJsdHrHa/embed?start=false&loop=false&delayms=3000" frameborder="0" width="100%" height="78%" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQ6PMfPiJNaI5eYCZEQGaMrwGC3dhn_NfwQQzS8fMNOFHHdAQ968c-RRRyk8wRKKFrrvs6uwJsdHrHa/embed?start=false&loop=false&delayms=3000" frameborder="0" width="100%" height="100%" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTS13DiZ6FS-ndobIDgpUOqkBmSpFKG2piins3mve5DArwACH_QcFUj6juBaLSv1NY339Z95sxnB1VM/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false" width='100%' height =908></iframe>
 
  1. list item  
