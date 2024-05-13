@@ -10,11 +10,13 @@ use_mermaid: true
 
  1. list item  
   1.1 list item
- 2. list
+  1.1 item
+ 3. list
 
  1. list item  
   1.1. list item
- 2. list
+  1.1. item
+ 3. list
 
 1. 그리스 문자
 
