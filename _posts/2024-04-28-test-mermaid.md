@@ -337,7 +337,7 @@ flowchart LR
 </td></tr></table>
 
 <h2>Markdown not work</h2>
-```mermaid
+``` mermaid
 flowchart LR
     Start --> Stop
 ```
