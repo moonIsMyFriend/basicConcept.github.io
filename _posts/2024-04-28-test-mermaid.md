@@ -5,7 +5,7 @@ tags: [test]
 date: 2024-04-12
 
 use_mermaid: true
-use_math: true
+
 ---
 
 ``` mermaid
