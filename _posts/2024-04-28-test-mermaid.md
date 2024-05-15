@@ -8,6 +8,12 @@ use_mermaid: true
 
 ---
 
+<span style="color:red">빨간 글씨</span>
+<span style="color:blue">파란 글씨</span>
+<span style="color:green">초록 글씨</span>
+<span style="color:yellow">노란 글씨</span>
+<span style="color:purple">보라 글씨</span>
+
 ~~취소선~~
 
 텍스트 뒤에 space bar를 두번 치고 enter를 누른 뒤 다음 텍스트를 씁니다.  
@@ -46,6 +52,22 @@ use_mermaid: true
 
 <html>
 <body>
+<span style="color:red">빨간 글씨</span>
+<span style="color:blue">파란 글씨</span>
+<span style="color:green">초록 글씨</span>
+<span style="color:yellow">노란 글씨</span>
+<span style="color:purple">보라 글씨</span>
+
+<span style="background-color:red">빨간 글씨</span>  
+<span style="background-color:blue">파란 글씨</span>  
+<span style="background-color:green">초록 글씨</span>  
+<span style="background-color:yellow">노란 글씨</span>  
+<span style="background-color:purple">보라 글씨</span> 
+
+<b><span style="color:white; background-color:red; font-size:150%">글자는 흰색, 배경은 빨강, 사이즈는 150, 굵기는 b태그로 설정</span></b>
+<img width="46" alt="star3" src="https://user-images.githubusercontent.com/78655692/151471989-9e21d7a8-a7b6-44b0-b598-2bb204b56b00.png">
+		탭2번
+
 이 태그는 H<sub>2</sub>O를 표현할 수 있습니다
 이 태그는 2<sup>2</sup>를 표현할수 있습니다.
 이것은 ==하이라이트== 입니다.
