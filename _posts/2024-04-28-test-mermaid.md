@@ -8,6 +8,24 @@ use_mermaid: true
 
 ---
 
+*Watch out!** Text~
+{: .notice}
+
+**Watch out!** Text~
+{: .notice--primary}
+
+**Watch out!** Text~
+{: .notice--info}
+
+**Watch out!** Text~
+{: .notice--warning}
+
+**Watch out!** Text~
+{: .notice--success}
+
+**Watch out!** Text~
+{: .notice--danger}
+
 <html>
 <body>
 
