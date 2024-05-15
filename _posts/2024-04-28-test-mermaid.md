@@ -7,7 +7,7 @@ date: 2024-04-12
 use_mermaid: true
 
 ---
-
+		tab을 두번 누르면 위의 백틱(`)을 사용한 것과 같습니다.
 <span style="color:red">빨간 글씨</span>
 <span style="color:blue">파란 글씨</span>
 <span style="color:green">초록 글씨</span>
