@@ -14,6 +14,7 @@ use_mermaid: true
 <br>
 이 태그는 H<sub>2</sub>O를 표현할 수 있습니다.
 ><q> 일단 실천하라. 그러면 힘을 지니게 될 것이다. </q> -왈도 에머슨-
+
 설명
 : 이해시키는 것을 목적으로 하는 진술 방법
 &copy;
@@ -39,8 +40,8 @@ use_mermaid: true
 <html>
 <body>
 이 태그는 H<sub>2</sub>O를 표현할 수 있습니다
-	이 태그는 2<sup>2</sup>를 표현할수 있습니다.
-	이것은 ==하이라이트== 입니다.
+이 태그는 2<sup>2</sup>를 표현할수 있습니다.
+이것은 ==하이라이트== 입니다.
 	
  <pre class="mermaid">
     flowchart TB
