@@ -14,6 +14,19 @@ use_mermaid: true
 <span style="color:yellow">노란 글씨</span>
 <span style="color:purple">보라 글씨</span>
 
+<details open>
+  <summary>이 블로그의 닉네임은?</summary>
+  poeun. 열린상태로 보여준다.
+</details>
+
+
+<details>
+  <summary>블로그를 더욱 알고 싶다면?</summary>
+  github.com/ingu627 로 이동한다.
+</details>
+
+[^1]:  : 참고 문헌은 [^1]을 한다음 :을 붙이면 자동으로 생성이 됩니다. (주석과 참조 번호가 서로 연결됩니다.)
+
 ~~취소선~~
 
 텍스트 뒤에 space bar를 두번 치고 enter를 누른 뒤 다음 텍스트를 씁니다.  
