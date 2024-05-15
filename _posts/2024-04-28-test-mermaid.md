@@ -8,6 +8,9 @@ use_mermaid: true
 
 ---
 
+
+이 태그는 H<sub>2</sub>O를 표현할 수 있습니다.
+
 *Watch out!** Text~
 {: .notice}
 
@@ -28,7 +31,9 @@ use_mermaid: true
 
 <html>
 <body>
-
+이 태그는 H<sub>2</sub>O를 표현할 수 있습니다
+	이 태그는 2<sup>2</sup>를 표현할수 있습니다.
+	
  <pre class="mermaid">
     flowchart TB
     c1-->a2
