@@ -91,6 +91,14 @@ use_mermaid: true
 이 태그는 2<sup>2</sup>를 표현할수 있습니다.
 이것은 ==하이라이트== 입니다.
 	
+<div class="mermaid">sequenceDiagram A-->B: Works!</div>
+
+
+```mermaid
+sequenceDiagram
+  A-->B: Workwows!
+```
+
  <pre class="mermaid">
     flowchart TB
     c1-->a2
