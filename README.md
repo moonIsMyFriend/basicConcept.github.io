@@ -109,6 +109,7 @@ dash:
   show_author: true
 ```
 ## Using this theme directly on Github Pages
+terminal에서 bundle 실행해보면 버전에 맞게 실행하라고 가이드 나옴. bundle _2.2.34_ 실행 >  bundle exec jekyll serve 하면 로컬에서 실행됨
 
 Please keep in mind that Github Pages does only support [a limited list of Jekyll plugins](https://pages.github.com/versions/). You will be able to use this theme on Github Pages but some functionality might not be available, for example displaying tags. In order to use this theme to a full extend, you have to generate the `_site` [separately via Github Actions](https://jekyllrb.com/docs/continuous-integration/github-actions/).
 
