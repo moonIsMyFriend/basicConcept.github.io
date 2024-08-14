@@ -17,15 +17,14 @@ use_math: true
 
 - 카이검증(교차분석): 독립변수와 종속변수가 둘 다 명목(범주)형 자료일 때 사용. 집단 간 비율 비교. 
 <br> 
-  - $\chi^2$  \[카이스퀘어(Chi-squared); 카이제곱\]  
-  <br>
-  - $\chi^2$-distribution: 카이자승분포 \[squre brackets\]  
-- t-test: 독립변수가 명목형 자료이지만, 종속변수는 연속형 자료일 때 사용.  
-  - 두 집단 간 평균 비교(2 집단만 가능)  
-  - t검증, 차이검증  
-- ANOVA(Analysis of Variance): 독립변수가 명목형 자료이지만, 종속변수는 연속형 자료일 때 사용.  
-  - 여러 집단 간 평균 비교(3 집단 이상 가능)  
-  - 변량분석  
+  - $\chi^2$  \[카이스퀘어(Chi-squared); 카이제곱\]  <br>
+  - $\chi^2$ -distribution: 카이자승분포 \[squre brackets\]  <br>
+- t-test: 독립변수가 명목형 자료이지만, 종속변수는 연속형 자료일 때 사용.  <br>
+  - 두 집단 간 평균 비교(2 집단만 가능)  <br>
+  - t검증, 차이검증  <br>
+- ANOVA(Analysis of Variance): 독립변수가 명목형 자료이지만, 종속변수는 연속형 자료일 때 사용. <br> 
+  - 여러 집단 간 평균 비교(3 집단 이상 가능)  <br>
+  - 변량분석  <br>
 </details>
 
 <details> 
