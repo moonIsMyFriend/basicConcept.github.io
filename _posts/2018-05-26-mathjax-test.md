@@ -5,6 +5,7 @@ subtitle: My first mathjax expression
 categories: markdown
 mathjax: yes
 tags: [test]
+use_math: true
 ---
 
 제발좀
