@@ -4,6 +4,7 @@ title:  Thesis
 tags: [glossary]
 date: 2024-05-11
 mathjax: yes
+mermaid: yes
 use_mermaid: true
 use_math: true
 ---
