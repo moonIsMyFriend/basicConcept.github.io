@@ -3,7 +3,7 @@ layout: post
 title:  Rawsim-o heatmap 만들기
 tags: [glossary]
 date: 2024-08-22
-img: img/240822/13.png
+img: 240822/13.png
 use_mermaid: true
 use_math: true
 ---
