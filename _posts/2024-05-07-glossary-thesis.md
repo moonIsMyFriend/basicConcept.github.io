@@ -97,22 +97,9 @@ First Header  | Second Header | Third Header |
  ------------ | :-----------: | -----------: |
 Content       |          *Long Cell*        ||
 Content       |   **Cell**    |         Cell |
-
 New section   |     More      |         Data |
 And more      | With an escaped '\|'         ||  
 [Prototype table]
-
-
-[cols="^.^,^.^,^.^"]
-|===
-|Layer1 |Layer2 |Layer3
-
-.4+|L1 Name .2+|L2 Name A |L3 Name A
-|L3 Name B
-.2+|L2 Name B |L3 Name C
-|L3 Name D
-|===
-
 
 
 |               |          Grouping             ||         Grouping 2         ||  Not Grouped    |
@@ -121,9 +108,8 @@ And more      | With an escaped '\|'         ||
 | Tall Cell     |          *Long Cell*          ||         *Long Long Cell*                    |||
 | ^^            |   **Bold**    | 1. first item  | *Italic*     | 3. third item | + first point  |\
 | ^^            |               | 1. second item |              | 1. forth item | + second point |
-
 | New section   |     More      |         Data   | ... - -- --- |||
-| And more      | With an escaped \|          || "Try 'quotes' in quotes "         |||
+| And more      | With an escaped \|          || "Try 'quotes' in quotes "         |||  
 [Compicated table]
 
 
