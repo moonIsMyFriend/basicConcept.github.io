@@ -5,7 +5,7 @@ show_date: true
 title:  Markov Decision Process
 date:   2024-09-29
 description: Process to solve Sequential Decision
-img: assets/img/posts/20210125/Perceptron.jpg 
+img:  posts/20210228/MLLibrary.jpg 
 tags: [RL, coding]
 author: 
 github:  
@@ -21,7 +21,7 @@ $MP \equiv(S,P) $
 - P: 전이 확률 행렬
 
 ### 2. 마르코프 성질
-: 미래는 오로지 현재에 의해 결정된다.
+: 미래는 오로지 현재에 의해 결정된다.  
 
 $P[S_{t+1}|S_t] = P[S_{t+1}|S_1,S_2,...,S_t]$
 
