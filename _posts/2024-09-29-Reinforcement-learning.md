@@ -24,9 +24,7 @@ $MP \equiv(S,P) $
 ### 2. 마르코프 성질
 $\mathbb{P}[S_{t+1}|S_t] = \mathbb{P}[S_{t+1}|S_1,S_2,...,S_t]$  
 
-미래는 오로지 현재에 의해 결정된다  
-  
-$\mathbb{P}[S_{t+1}|S_t] = \mathbb{P}[S_{t+1}|S_1,S_2,...,S_t]$
+미래는 오로지 현재에 의해 결정된다 
 
 - 마르코프하지 않은 상태이어도 이전 상태를 엮어서 상태를 제공하면 마르코프 성질을 만족시킬 수 있다.
 
@@ -77,13 +75,15 @@ MRP에 에이전트가 더해짐
 #### 상태 가치 함수
 : 정책함수에 의존적. 정책 고정.  
 $v_\pi(S)=E_\pi[r_{t+1} + \gamma r_{t+2} + \gamma^2r_{t+3}+ ...|S_t=s]$  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$=E[G_t|S_t=s]$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$=E[G_t|S_t=s]$
 
 #### 액션 가치 함수
 각 상태에서 선택 가능한 모든 액션을 평가  
 $q_\pi(s,a)=E_\pi[G_t|S_t=s, A_t=a]$
  
 #### MDP의 목적
+
+
 $v^*$ (최적 가치 함수): 최적 정책 $\pi^*$를 따를 때의 가치 함수 
 
 - Prediction: 정책이 주어졌을 때 각 상태의 밸류를 평가
