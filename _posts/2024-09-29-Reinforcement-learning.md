@@ -75,6 +75,7 @@ MRP에 에이전트가 더해짐
 #### 상태 가치 함수
 : 정책함수에 의존적. 정책 고정.  
 $v_\pi(S)=\mathbb{E}_\pi[r_{t+1} + \gamma r_{t+2} + \gamma^2r_{t+3}+ ...|S_t=s]$  
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$=\mathbb{E}_\pi[G_t|S_t=s]$
 
 #### 액션 가치 함수
